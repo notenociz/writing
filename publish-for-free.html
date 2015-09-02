@@ -1,0 +1,63 @@
+<h1>Publish a site for freewith freenom and GitHub Pages</h1>
+
+  </header>
+  <main>
+
+<hr />
+
+<p>Due to no one else sharing this to a great deal, here is:</p>
+
+<p><strong> How to publish a website for free using freenom.com and GitHub Pages in 3 steps.</strong></p>
+
+<hr />
+
+<p>Before I start, I'm going to assume a few things. Here they are:</p>
+
+<h2>Assumptions:</h2>
+
+<ul>
+<li>You have got a freenom.com account (otherwise, do so for free <a href="http://www.freenom.com/en/index.html?lang=en">now</a>)</li>
+<li>You have setup a free domain on freenom (choose one ending with .tk, .ml, .cf, .ga or .gq with over four letters before the . (dot) to register for free).</li>
+<li>You have got a GitHub account (or are getting one for free from <a href="https://github.com/">here</a>)</li>
+<li>You have setup a GitHub repository (can't help you here; it's up to you to make your site for the time being though I'm sure you can find some really good tutorials around on YouTube etc.)</li>
+</ul>
+
+<hr />
+
+<p>Now, let's start.</p>
+
+<h2>Step 1: Get GitHub pages going</h2>
+
+<p>There's a good guide to doing so <a href="https://pages.github.com/">here</a>.</p>
+
+<h2>Step 2: Get the DNS going</h2>
+
+<p>Once you've got GitHub pages going, head over to freenom.com, sign in and follow my lead.</p>
+
+<ol>
+<li>Go to <em>Domain</em> on the taskbar.</li>
+<li>Click on <em>My Domains</em></li>
+<li>Press <em>Manage Domain</em> on the site you want to connect to GitHub pages</li>
+<li>Click on <em>Manage Freenom DNS</em></li>
+</ol>
+
+<p>Now, here comes the magical part:</p>
+
+<p><strong>Under </strong><strong><em>Target</em></strong><strong>, paste in the following DNS URL: </strong><code>192.30.252.154</code><strong>.</strong></p>
+<p>Then press <em>Enter</em> or <em>Return</em> to get a new DNS area.</p>
+
+<p><strong>On the second DNS area you just trigger, under </strong><strong><em>Target</em></strong><strong>, paste in the following DNS URL: </strong><code>192.30.252.153</code><strong>.</strong> This will mean that when someone types in www.&lt;your site's URL&gt;, they will get the right thing.</p>
+
+<h2>Step 3</h2>
+
+<p>Now, we go back to GitHub. On your repo, in the <code>gh-pages</code> branch you would have created back in <em>Step 1</em>. You now press the <em>+</em> button and put <code>CNAME</code> as the name of the file (without an extension). For the content of the file, you put in the URL of the site for which you had changed the DNS in <em>Step 2</em>. You now commit this file.</p>
+
+<hr />
+
+<h2>Loading...</h2>
+
+<p>Once you've done this, have a little coffee, tea or spend 5 minutes doing something else. Once you've done that, go and open the site which you have been working with across this tutorial/article. You'll see that now you have the site you have been building all for free!</p>
+
+<hr />
+
+<p>If not, you can contact me by <a href="mailto:enociz.eaa@gmail.com">email</a> or DM me on <a href="http://twitter.com/enociz">Twitter</a>.</p>
