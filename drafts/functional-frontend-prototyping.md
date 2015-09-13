@@ -1,0 +1,23 @@
+# Functional Front-End Prototyping
+
+- introduction
+	- functional programming is very big and is advocated for by many respectable programmers
+	- prototyping is important to make sure that things in your app/site can work or look good before you actually put it into production
+- what is functional CSS?
+	- separating things to what their function is, not what they are (give definition)
+	- Joining bits of Lego together to make a block, then joining those together to make a ball (use reference of the big Lego ball myth busters)
+	- By doing things functionally, you can easily change things as you want, see what you're doing directly from the code and reuse things easily (being modular) and change modules up as needed. (Give an example of item list with photos)
+- What is prototyping?
+	- prototyping is testing and building things to ensure that when you go into production, you don't need to rethink things
+	- If you're not already prototyping, you should be
+		- it saves time (if you design in browser)
+- How can being functional help prototyping?
+	- change things quickly
+	- Go easily into production
+	- Almost anyone can do it.
+- tips
+	- design in the browser btw - it's the best
+	- Use vim for its fastness
+	- Check out tachyons and basscss
+	- Check out the immutable CSS processor
+	- Use PROTOTYPES as PRODUCTS!!! ( give link to mrmrs_ article)
